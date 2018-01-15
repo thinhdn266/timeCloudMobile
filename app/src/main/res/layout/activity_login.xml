@@ -12,7 +12,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="120dp"
-        android:src="@drawable/logoToggl" />
+        android:src="@drawable/logo_toggl" />
 
     <EditText
         android:id="@+id/email"
