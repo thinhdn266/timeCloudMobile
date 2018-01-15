@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TimeCloud</string>
+    <string name="signupWithoutAccount">Don\'t have an account ? Let\'s sign up</string>
+    <string name="loginWithAccount">Already got account ? Let\'s login</string>
+</resources>
