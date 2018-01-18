@@ -6,19 +6,20 @@
     android:background="@color/colorPrimary"
     android:orientation="vertical"
     android:padding="15dp"
-    android:weightSum="6">
+    android:weightSum="7">
 
     <ImageView
         android:id="@+id/logo"
         android:layout_width="match_parent"
-        android:layout_height="120dp"
-        android:layout_weight="3"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
         android:src="@drawable/logo_toggl" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="2"
+        android:gravity="center"
         android:orientation="vertical">
 
         <EditText
@@ -28,22 +29,12 @@
             android:hint="Email"
             android:inputType="textEmailAddress" />
 
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@android:color/white" />
-
         <EditText
             android:id="@+id/password"
             style="@style/EditTextLoginForm"
             android:drawableLeft="@drawable/ic_action_password"
             android:hint="Password"
             android:inputType="textPassword" />
-
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@android:color/white" />
 
         <EditText
             android:id="@+id/confirm_password"
@@ -52,28 +43,22 @@
             android:hint="Confirm Password"
             android:inputType="textPassword" />
 
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@android:color/white" />
-
         <Button
-            android:layout_width="match_parent"
-            android:layout_height="40dp"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/login_btn"
-            android:text="Sign Up"
-            android:textColor="@android:color/white" />
+            android:id="@+id/signup_btn"
+            style="@style/ButtonLoginForm"
+            android:text="Sign Up"/>
+
     </LinearLayout>
 
     <TextView
+        android:id="@+id/change_to_login_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fontFamily="@font/roboto"
         android:layout_weight="1"
-        android:gravity="bottom"
+        android:gravity="center"
         android:text="@string/loginWithAccount"
         android:textAlignment="center"
         android:textColor="#B2DFDB"
-        android:textSize="13sp" />
+        android:textSize="14sp" />
 </LinearLayout>
