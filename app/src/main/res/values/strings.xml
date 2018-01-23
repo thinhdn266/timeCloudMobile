@@ -2,13 +2,4 @@
     <string name="app_name">TimeCloud</string>
     <string name="signupWithoutAccount">Don\'t have an account ? Let\'s sign up</string>
     <string name="loginWithAccount">Already got account ? Let\'s login</string>
-
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="action_settings">Settings</string>
-
-    <string name="error_email_required">Email is required!</string>
-    <string name="error_password_required">Password is required!</string>
-    <string name="error_confirm_password_required">Confirm Password is required!</string>
-    <string name="error_confirm_password_notmatch">Confirm Password does not match!</string>
 </resources>
