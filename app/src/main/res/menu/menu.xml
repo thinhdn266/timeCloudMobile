@@ -5,11 +5,17 @@
     <item
         android:id="@+id/menu_timer"
         android:icon="@drawable/ic_action_timer"
-        android:title="Timer"
-        app:showAsAction="never" />
+        android:title="Timer" />
     <item
-        android:id="@+id/menu_help"
-        android:icon="@drawable/ic_action_help"
-        android:title="Help"
-        app:showAsAction="never"/>
+        android:id="@+id/menu_time_off"
+        android:icon="@drawable/ic_action_time_off"
+        android:title="Time Off" />
+    <item
+        android:id="@+id/menu_report"
+        android:icon="@drawable/ic_action_report"
+        android:title="Report" />
+    <item
+        android:id="@+id/menu_logout"
+        android:icon="@drawable/ic_action_logout"
+        android:title="Logout" />
 </menu>
