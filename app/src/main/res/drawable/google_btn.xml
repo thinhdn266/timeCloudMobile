@@ -1,25 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<selector xmlns:android="http://schemas.android.com/apk/res/android" >
-    <item android:state_pressed="true" >
-        <shape android:shape="rectangle"  >
-            <corners android:radius="@dimen/radius_btn" />
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <corners android:bottomLeftRadius="@dimen/radius_btn" android:topLeftRadius="@dimen/radius_btn" />
             <stroke android:width="1dip" android:color="#aaffffff" />
-            <gradient android:angle="-90" android:startColor="@color/colorGoogle" android:endColor="#B23A2C"  />
+            <gradient android:angle="-90" android:endColor="#B23A2C" android:startColor="@color/colorGoogle" />
         </shape>
     </item>
     <item android:state_focused="true">
-        <shape android:shape="rectangle"  >
-            <corners android:radius="@dimen/radius_btn" />
+        <shape android:shape="rectangle">
+            <corners android:bottomLeftRadius="@dimen/radius_btn" android:topLeftRadius="@dimen/radius_btn" />
             <stroke android:width="1dip" android:color="@color/colorGoogle" />
-            <solid android:color="#B23A2C"/>
+            <solid android:color="#B23A2C" />
         </shape>
     </item>
-    <item >
-        <shape android:shape="rectangle"  >
-            <corners android:topLeftRadius="@dimen/radius_btn"
-                android:bottomLeftRadius="@dimen/radius_btn"/>
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:bottomLeftRadius="@dimen/radius_btn" android:topLeftRadius="@dimen/radius_btn" />
             <stroke android:width="1dip" android:color="#88ffffff" />
-            <gradient android:angle="-90" android:startColor="@color/colorGoogle" android:endColor="@color/colorGoogle" />
+            <gradient android:angle="-90" android:endColor="@color/colorGoogle" android:startColor="@color/colorGoogle" />
         </shape>
     </item>
 </selector>

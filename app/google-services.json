@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "306494298185",
+    "project_id": "firebase-timecloud"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:306494298185:android:4dc2e7ba24c38f8f",
+        "android_client_info": {
+          "package_name": "com.example.administrator.timecloud"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "306494298185-og4i1irurpnbj1l0ktm74qedr0ngdaci.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.administrator.timecloud",
+            "certificate_hash": "6216235be95eda9d7d20a08d67e1a12bdb4883cc"
+          }
+        },
+        {
+          "client_id": "306494298185-6103anrflebq3vvdk5epuq75a2mnt8j7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD54QK_BMhKPoNisNhKeuAt6FBssOEIxMI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

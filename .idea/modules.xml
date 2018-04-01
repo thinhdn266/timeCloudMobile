@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/TimeCloud.iml" filepath="$PROJECT_DIR$/TimeCloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2018-infinity-war-front-end-mobile.iml" filepath="$PROJECT_DIR$/2018-infinity-war-front-end-mobile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libs/SlideDateTimePicker/SlideDateTimePicker.iml" filepath="$PROJECT_DIR$/libs/SlideDateTimePicker/SlideDateTimePicker.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

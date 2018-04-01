@@ -5,12 +5,63 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:showIn="@layout/activity_main"
-    android:background="@android:color/white">
+    tools:showIn="@layout/activity_main">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Welcome!" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/backgroundColor">
+
+
+        <ScrollView
+            android:id="@+id/main_scrollview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/tracktimebar"
+            android:layout_alignParentTop="true">
+
+            <LinearLayout
+                android:id="@+id/main_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingTop="10dp">
+
+                <HorizontalScrollView
+                    android:id="@+id/horizontal_scrollview"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="15dp"
+                    android:paddingBottom="15dp"
+                    android:scrollbars="none" />
+
+                <include layout="@layout/workingtime_displaybar"></include>
+            </LinearLayout>
+        </ScrollView>
+        <TextView
+            android:id="@+id/welcome_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/welcomeTitle"
+            android:textColor="@color/colorGrayText"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/welcome_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/welcome_title"
+            android:layout_centerHorizontal="true"
+            android:text="@string/welcomeContent"
+            android:textColor="@color/colorGrayText"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+        <include layout="@layout/tracktime_displaybar"></include>
+    </RelativeLayout>
 
 </android.support.design.widget.CoordinatorLayout>

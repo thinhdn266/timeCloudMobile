@@ -5,4 +5,30 @@
     <color name="colorAccent">#4DB6AC</color>
     <color name="colorGoogle">#DB4437</color>
     <color name="colorFacebook">#3B5998</color>
+    <color name="colorBlueText">#1a75d1</color>
+    <color name="colorGrayText">#999</color>
+    <color name="colorGrayLine">#ccc</color>
+    <color name="colorGrayLineTransparent">#33dddddd</color>
+    <color name="colorBlackText">#555</color>
+    <color name="colorWhite">#fff</color>
+    <color name="colorBlue">#0066cc</color>
+    <color name="colorGreen">#4bc800</color>
+    <color name="backgroundColor">#f0f0f0</color>
+
+    <color name="colorRedIcon">#CE0000</color>
+    <color name="colorBlueIcon">#232397</color>
+    <color name="colorBrownIcon">#7F0F0F</color>
+    <color name="colorYellowIcon">#BAC700</color>
+    <color name="colorLimeIcon">#00B900</color>
+    <color name="colorPinkIcon">#C100C1</color>
+    <color name="colorAquaIcon">#00B2B2</color>
+    <color name="colorOrangeIcon">#DA6D00</color>
+    <color name="colorSeafoamIcon">#5f9ea0</color>
+    <color name="colorPurpleIcon">#610661</color>
+
+    <color name="colorHighlight">#72FFFF</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="taskBackground">#f7f7f7</color>
+    <color name="workingTimeBackground">#ebebeb</color>
 </resources>

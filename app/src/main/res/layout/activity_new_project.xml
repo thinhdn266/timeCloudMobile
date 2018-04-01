@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <ImageButton
+            android:id="@+id/accept_btn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/ic_accept" />
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/task_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@null"
+        android:hint="Project Name"
+        android:textColor="@color/colorBlackText"
+        android:textColorHint="@color/colorGrayText"
+        android:textSize="15sp"
+        android:minLines="1"
+        android:maxLines="1"
+        android:inputType="text"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorGrayLine" />
+
+    <EditText
+        android:id="@+id/project_des"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@null"
+        android:hint="Description"
+        android:textColor="@color/colorBlackText"
+        android:textColorHint="@color/colorGrayText"
+        android:textSize="15sp"
+        android:minLines="1"
+        android:maxLines="2"
+        android:inputType="text"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorGrayLine" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Project Color"
+        android:textColor="@color/colorGrayText"
+        android:textSize="15sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:weightSum="5">
+
+
+            <ToggleButton
+                android:id="@+id/red_btn"
+                style="@style/ButtonProjectColor"
+                android:background="@drawable/btn_red" />
+
+            <ToggleButton
+                android:id="@+id/orange_btn"
+                style="@style/ButtonProjectColor"
+                android:background="@drawable/btn_orange" />
+
+            <ToggleButton
+                android:id="@+id/yellow_btn"
+                style="@style/ButtonProjectColor"
+                android:background="@drawable/btn_yellow" />
+
+            <ToggleButton
+                android:id="@+id/lime_btn"
+                style="@style/ButtonProjectColor"
+                android:background="@drawable/btn_lime" />
+
+            <ToggleButton
+                android:id="@+id/aqua_btn"
+                style="@style/ButtonProjectColor"
+                android:background="@drawable/btn_aqua" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:weightSum="5">
+
+            <ToggleButton
+                android:id="@+id/blue_btn"
+                style="@style/ButtonProjectColor"
+                android:background="@drawable/btn_blue" />
+
+            <ToggleButton
+                android:id="@+id/seafoam_btn"
+                style="@style/ButtonProjectColor"
+                android:background="@drawable/btn_seafoam" />
+
+            <ToggleButton
+                android:id="@+id/pink_btn"
+                style="@style/ButtonProjectColor"
+                android:background="@drawable/btn_pink" />
+
+            <ToggleButton
+                android:id="@+id/purple_btn"
+                style="@style/ButtonProjectColor"
+                android:background="@drawable/btn_purple" />
+
+            <ToggleButton
+                android:id="@+id/brown_btn"
+                style="@style/ButtonProjectColor"
+                android:background="@drawable/btn_brown" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

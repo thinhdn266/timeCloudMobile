@@ -19,7 +19,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="5"
-        android:gravity="center"
+        android:gravity="center_horizontal|top"
         android:orientation="vertical">
 
         <EditText
@@ -42,7 +42,15 @@
             android:text="Login" />
 
         <include layout="@layout/social_login"></include>
-
+        <TextView
+            android:id="@+id/forgot_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/forgot_password"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="15dp"
+            />
     </LinearLayout>
 
     <TextView

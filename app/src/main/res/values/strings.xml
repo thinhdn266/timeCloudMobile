@@ -2,7 +2,7 @@
     <string name="app_name">TimeCloud</string>
     <string name="signupWithoutAccount">Don\'t have an account ? Let\'s sign up</string>
     <string name="loginWithAccount">Already got account ? Let\'s login</string>
-
+    
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="action_settings">Settings</string>
@@ -13,4 +13,17 @@
     <string name="error_confirm_password_notmatch">Confirm Password does not match!</string>
     <string name="error_password_too_short">Password must contain at least 6 characters!</string>
     <string name="error_email_valid">Email is not valid!</string>
+
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="forgot_password_ins">We just need your registered Email to send you password reset Code</string>
+    <string name="back_text">&lt;&lt; BACK</string>
+
+    <string name="reset_password">Reset Password</string>
+    <string name="reset_password_ins">Type a new password</string>
+
+    <string name="welcomeTitle">Nothing logged yet</string>
+    <string name="welcomeContent">Start the timer to create your first entry</string>
+
+    <string name="noProjectNotificationTitle">There is no project</string>
+    <string name="noProjectNotificationContent">Press the button below to add new project</string>
 </resources>

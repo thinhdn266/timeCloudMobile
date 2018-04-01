@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.administrator.timecloud">
+    package="com.CodeEngine.ThinhDinh.timecloud">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -14,19 +14,40 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <service
+            android:name=".Service.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <service android:name=".Service.LocalService"/>
+
         <activity
-            android:name=".SplashActivity"
+            android:name="com.CodeEngine.ThinhDinh.timecloud.SplashActivity"
             android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.CodeEngine.ThinhDinh.timecloud.LoginActivity" />
         <activity
-            android:name=".LoginActivity"></activity>
-        <activity android:name=".MainActivity"></activity>
+            android:name="com.CodeEngine.ThinhDinh.timecloud.MainActivity"
+            android:launchMode="singleTask" />
+        <activity android:name="com.CodeEngine.ThinhDinh.timecloud.SignupActivity" />
         <activity
-            android:name=".SignupActivity"></activity>
+            android:name="com.CodeEngine.ThinhDinh.timecloud.NewTaskActivity"
+            android:launchMode="singleTask" />
+        <activity android:name="com.CodeEngine.ThinhDinh.timecloud.ForgotPasswordActivity" />
+        <activity android:name="com.CodeEngine.ThinhDinh.timecloud.ResetPasswordActivity" />
+        <activity android:name="com.CodeEngine.ThinhDinh.timecloud.NewProjectActivity" />
+        <activity android:name="com.CodeEngine.ThinhDinh.timecloud.ProjectListActivity" />
+        <activity android:name="com.CodeEngine.ThinhDinh.timecloud.NewCategoryActivity" />
+        <activity
+            android:name="com.CodeEngine.ThinhDinh.timecloud.TaskInfoActivity"
+            android:launchMode="singleTask" />
+        <activity android:name="com.CodeEngine.ThinhDinh.timecloud.TaskListActivity" />
+        <activity android:name="com.CodeEngine.ThinhDinh.timecloud.TeamActivity" />
+        <activity android:name="com.CodeEngine.ThinhDinh.timecloud.TimeoffActivity"/>
     </application>
 </manifest>

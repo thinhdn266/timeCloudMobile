@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/email_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"
+        android:ellipsize="end"
+        android:maxEms="12"
+        android:singleLine="true"
+        android:text="thinhdn266ffffffffffffffffffffffff@gmail.com"
+        android:textColor="@color/colorBlackText"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/role_btn"
+        android:layout_width="64dp"
+        android:layout_height="26dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/btn_gray_shadow"
+        android:text="Member"
+        android:textAllCaps="false"
+        android:textColor="@color/colorWhite"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

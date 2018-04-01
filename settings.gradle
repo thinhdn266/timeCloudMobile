@@ -1,1 +1,2 @@
-include ':app'
+include ':app', ':SlideDateTimePicker'
+project(':SlideDateTimePicker').projectDir = new File('libs/SlideDateTimePicker')
